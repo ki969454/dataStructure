@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//
 typedef int ElemType;
 
 //链表定义
