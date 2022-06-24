@@ -4,7 +4,7 @@ using namespace std;
 
 //线性表的定义
 struct SqList {
-    int* elem;//
+    int* elem;
     int length;
 };
 
