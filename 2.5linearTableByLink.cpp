@@ -161,7 +161,7 @@ void createListBytail(LinkList& L, int num) {
 int main() {
     LinkList L;
     initList(L);
-    cout << ifListEmpty(L) << endl;
+    //cout << ifListEmpty(L) << endl;
     //createListByHead(L, 5);
     createListBytail(L, 5);
     for (Lnode* p = L->next; p; p = p->next) {
