@@ -156,7 +156,7 @@ void createListBytail(LinkList& L, int num) {
         cin >> p->data;
         p->next = NULL;
         r->next = p;
-        r = r->next;
+        r = r->next;                    //r = p
     }
 }
 
