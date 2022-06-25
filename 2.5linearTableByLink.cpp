@@ -3,6 +3,8 @@ using namespace std;
 
 typedef int ElemType;
 
+//{1, 2, 3} -> {1, 2, 3}
+
 //链表定义
 typedef struct Lnode {
     ElemType data;
