@@ -3,9 +3,14 @@ using namespace std;
 
 typedef int ElemType;
 
-typedef struct Lnode
+typedef struct CLnode
 {
     ElemType data;
-    Lnode* next;
-}Lnode, *LinkList;
+    CLnode* next;
+}CLnode, *CLinkList;
 
+//初始化
+void initList(CLinkList& L) {
+    L = new CLnode;
+    L->next = L;
+}
