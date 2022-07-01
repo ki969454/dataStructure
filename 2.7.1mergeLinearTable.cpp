@@ -56,6 +56,13 @@ LinkList mergeListNoSame(LinkList L1, LinkList L2) {
     }
 }
 
+//合并链表(有序表)
+LinkList mergeListSeq(LinkList L1, LinkList L2) {
+    LinkList L3;
+    Lnode* p = L1, * q = L2;
+    
+}
+
 void displayList(LinkList L) {
     for (Lnode* p = L->next; p; p = p->next) {
         cout << p->data << endl;
