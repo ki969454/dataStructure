@@ -49,7 +49,7 @@ LinkList mergeListNoSame(LinkList L1, LinkList L2) {
                 break;
             }
             else {
-
+                
             }
         }
         p = p->next;
